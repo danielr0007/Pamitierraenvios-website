@@ -837,6 +837,14 @@ nav button {
 footer {
   background-color: rgb(33, 33, 33);
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer p {
+  padding-bottom: 5px;
+  color: var(--mainlightfont-color);
 }
 
 /* ipad//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -1013,7 +1021,7 @@ footer {
 
 /* Phone//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 414px) {
   /* Beginning of site */
 
   .topbar {

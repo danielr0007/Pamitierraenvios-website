@@ -21,11 +21,11 @@ calcular.addEventListener("click", function () {
     document.getElementById("calcresults").classList.remove("hide1");
     resetear.classList.remove("hide1");
 
-    pesoPay = Math.floor(peso * 1.1);
+    pesoPay = Math.floor(peso * 1.45);
 
     flete.textContent = pesoPay;
 
-    totalToPost = pesoPay + 10;
+    totalToPost = pesoPay + 7;
 
     total.textContent = totalToPost;
   } else if (valor <= 200 && peso <= 10) {
